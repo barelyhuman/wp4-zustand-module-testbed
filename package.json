@@ -1,0 +1,26 @@
+{
+  "name": "wb4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^4",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^8",
+    "typescript": "^5.0.3",
+    "webpack": "4",
+    "webpack-cli": "^4",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.3.7"
+  }
+}
